@@ -197,7 +197,7 @@ canvas {
 }
 #nav {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(167, 160, 162, 0.2);
     height: 60px;
     display: flex;
     justify-content: flex-start;
