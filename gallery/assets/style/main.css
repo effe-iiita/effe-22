@@ -197,11 +197,12 @@ canvas {
 }
 #nav {
     width: 100%;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.3);
     height: 60px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    backdrop-filter: blur(100px);
 }
 .effe-logo {
     width: 40px;
