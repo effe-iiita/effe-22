@@ -180,8 +180,7 @@ const events = [
 ];
 
 for (const event of events) {
-    if (event.day === "Day 0") {
-        cardContainer.innerHTML += `
+    cardContainer.innerHTML += `
         <div class="events__card" data-society = ${event.society} data-day=${event.day}>
         <img src="${event.link}" alt="Effervescence effe" />
         <div class="events__card__content">
@@ -191,5 +190,4 @@ for (const event of events) {
     </div>
     
     `;
-    }
 }

@@ -1,5 +1,4 @@
 const listItems = document.querySelectorAll(".events__list__item");
-const listItemDays = document.querySelectorAll(".events__list__days__item");
 const cards = document.querySelectorAll(".events__card");
 const headingSpan = document.querySelector(
     ".events__hero__detail__heading span"
@@ -27,31 +26,6 @@ for (const listItem of listItems) {
                 card.classList.remove("none");
             }
             if (listItem.innerHTML === "All") {
-                card.classList.remove("none");
-            }
-        }
-    });
-}
-
-for (const listItemDay of listItemDays) {
-    listItemDay.addEventListener("click", () => {
-        listItemDay.classList.add("active");
-
-        for (const item of listItems) {
-            if (item !== listItemDay) {
-                item.classList.remove("active");
-            }
-        }
-
-        cards.forEach((card) => card.classList.add("animate"));
-
-        for (const card of cards) {
-            if (card.dataset.society !== listItemDay.innerHTML) {
-                card.classList.add("none");
-            } else {
-                card.classList.remove("none");
-            }
-            if (listItemDay.innerHTML === "Day 0") {
                 card.classList.remove("none");
             }
         }

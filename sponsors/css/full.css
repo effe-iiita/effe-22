@@ -24,9 +24,10 @@ body {
     background-size: 80%;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 2rem;
 }
 .sponsor {
-    width: 30%;
+    width: 300px !important;
 }
 .content__img {
     width: 100%;
