@@ -2,11 +2,17 @@
 * {
     margin: 0;
     padding: 0;
-    -webkit-box-sizing: border-box;
+    /* -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Nunito Sans", sans-serif; */
 }
-
+h1{
+    /* font-family: "Nunito Sans", sans-serif; */
+    font-size: 4rem;
+    color: #000;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
 body {
     width: 100vw;
     height: auto;
@@ -100,7 +106,7 @@ body {
 .events__hero__detail__heading span {
     font-size: 1.5rem;
     position: absolute;
-    top: -10px;
+    top: -25px;
     left: 3px;
     text-transform: uppercase;
     letter-spacing: 2px;
