@@ -26,8 +26,13 @@ body {
     flex-wrap: wrap;
     gap: 2rem;
 }
+.title-sponsor {
+    width: 450px !important;
+    border: 4px solid white;
+}
 .sponsor {
     width: 300px !important;
+    border: 4px solid white;
 }
 .content__img {
     width: 100%;
@@ -123,4 +128,9 @@ body {
     right: 10px;
     cursor: pointer;
     z-index: 100;
+}
+@media (max-width: 650px) {
+    .content__type {
+        max-width: calc(100vw - 5rem);
+    }
 }
