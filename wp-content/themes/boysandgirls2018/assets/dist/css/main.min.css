@@ -1043,6 +1043,11 @@ img.alignleft {
     font-display: auto;
 }
 @font-face {
+    font-family: 'Creepster';
+    src: url(../fonts/Creepster-Regular.ttf) format("ttf");
+    font-display: auto;
+}
+@font-face {
     font-family: "Sharp Grotesk Book 20";
     src: url(../fonts/SharpGroteskBook20.eot);
     src: url(../fonts/SharpGroteskBook20d41d.eot?#iefix)
