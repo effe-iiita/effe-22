@@ -7280,7 +7280,7 @@ input[type="search"]::-webkit-search-results-decoration {
     width: 100%;
     max-width: 420px;
     margin: 0 auto;
-    background: black;
+    background: #150d0d;
 }
 @media (max-width: 1024px) {
     .contact__details-col-inner {
