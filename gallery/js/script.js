@@ -79,4 +79,4 @@ setInterval(function () {
     photo.showPhoto(idx);
     idx++;
     if (idx === data.length) idx = 0;
-}, 1000);
+}, 2500);

@@ -9,7 +9,7 @@ body {
     font-size: 5.5vw;
     max-width: calc(100vw - 20rem);
     margin: 0 auto;
-    min-height: calc(100vh - 4rem);
+    min-height: calc(100vh - 15rem);
     display: flex;
     align-items: center;
     font-family: benton-modern-display, serif;

@@ -18,7 +18,7 @@ body {
     width: 100vw;
     height: auto;
     overflow-x: hidden;
-    background-color: black;
+    background-color: #0d0606;
 }
 .logo {
     z-index: 100;
@@ -53,8 +53,6 @@ body {
     -ms-flex-align: center;
     align-items: center;
     flex-wrap: wrap;
-}
-.events__hero__detail__heading {
 }
 @media screen and (max-width: 650px) {
     .events__hero {
@@ -100,29 +98,24 @@ body {
 }
 
 .events__hero__detail__heading {
-    font-size: 3rem;
     margin-bottom: 2rem;
-
     position: relative;
     font-family: "Creepster", cursive;
     color: white;
 }
 .events__hero__detail__heading h1 {
-    font-size: 5rem;
+    font-size: 8rem;
 }
 .events__hero__detail__heading span {
-    font-size: 2rem;
-    position: absolute;
-    top: -25px;
-    left: 3px;
+    font-size: 4rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: white;
 }
 
 .events__hero__detail__body {
-    font-size: 1.2rem;
-    line-height: 1.4rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
     letter-spacing: 1px;
     color: white;
 }
