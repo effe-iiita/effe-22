@@ -4989,6 +4989,7 @@ html.fp-enabled {
     position: relative;
     width: 100%;
     height: 100%;
+    background: #ffffff;
     background: #0d0606;
 }
 
@@ -7719,9 +7720,9 @@ input[type="search"]::-webkit-search-results-decoration {
     justify-content: center;
     width: 100%;
     height: 56px;
-    border: 2px solid #1e2d3c;
+    border: 2px solid #ff4654;
     font-size: 24px;
-    color: #1e2d3c;
+    color: #ff4654;
     line-height: 0.8;
 }
 
@@ -7732,7 +7733,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 @media (max-width: 900px) {
     .news__date-num {
-        border-color: #fff;
+        border-color: #ff4654;
         color: #fff;
     }
 
