@@ -6440,7 +6440,7 @@ html.fp-enabled {
     /* backdrop-filter: blur(4px); */
     /* opacity: 0.3; */
     /* filter: blur(10px); */
-    /* background-color: #00000021; */
+    /* background-color: #00; */
 }
 
 .home-logo {
@@ -9644,7 +9644,7 @@ input[type="search"]::-webkit-search-results-decoration {
     height: 10px;
     margin: 0;
     padding: 0;
-    border: 1px solid #1e2d3c;
+    border: 1px solid #ff4654;
     border-radius: 0;
     background: rgba(30, 45, 60, 0);
     -webkit-appearance: none;
