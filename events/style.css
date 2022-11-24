@@ -98,7 +98,7 @@ body {
 .events__hero__detail__heading span {
     font-size: 1.5rem;
     position: absolute;
-    top: -10px;
+    top: -20px;
     left: 3px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -114,6 +114,9 @@ body {
 
 .events__hero__detail__body p {
     margin: 10px 0;
+    line-height: 2.5rem;
+    letter-spacing: 1px;
+    font-size: 2rem;
 }
 
 .events__hero__image {

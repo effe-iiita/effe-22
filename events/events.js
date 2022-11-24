@@ -3,19 +3,19 @@ const cardContainer = document.querySelector(".events__cards__container");
 const events = [
     {
         name: "MUN'22",
-        date: "2-4Dec.",
+        date: "2-4 Dec.",
         society: "Sarasva",
         link: "./assets/mun.jpg",
     },
     {
         name: "Feathers",
-        date: "20Nov-8Dec.",
+        date: "20 Nov-8 Dec.",
         society: "Sarasva",
         link: "./assets/feathers.jpg",
     },
     {
         name: "Cognoscentia",
-        date: "27Nov-8Dec.",
+        date: "27 Nov-8 Dec.",
         society: "Sarasva",
         link: "./assets/cognoscentia.jpg",
     },
@@ -45,13 +45,13 @@ const events = [
     // },
     {
         name: "Shoot your Shots	",
-        date: "28Nov-5Dec.",
+        date: "28 Nov-5 Dec.",
         society: "Rangtarangini",
         link: "./assets/shootshorts.jpeg",
     },
     {
         name: "Schizarre",
-        date: "25Nov-15Dec.",
+        date: "25 Nov-15 Dec.",
         society: "Nirmiti ",
         link: "./assets/schizzare.jpeg",
     },
@@ -69,7 +69,7 @@ const events = [
     // },
     {
         name: "Show Off",
-        date: "24Nov-9Dec.",
+        date: "24 Nov-9 Dec.",
         society: "GeneticXCrew",
         link: "./assets/showoff.jpeg",
     },
