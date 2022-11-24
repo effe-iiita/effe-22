@@ -4,7 +4,7 @@
     padding: 0;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: "Nunito Sans", sans-serif;
+    /* font-family: "Nunito Sans", sans-serif; */
 }
 body {
     width: 100vw;
@@ -198,7 +198,7 @@ body {
     align-items: center;
     list-style: none;
     cursor: pointer;
-    font-size: 2.5rem;
+    font-size: 2rem;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -webkit-box-pack: center;
@@ -206,6 +206,7 @@ body {
     justify-content: center;
     color: white;
     font-weight: 700;
+    font-family: "Nunito Sans", sans-serif;
 }
 
 @media screen and (max-width: 900px) {
@@ -247,7 +248,7 @@ body {
     background-color: #ff4654;
     min-width: 280px;
     border-radius: 20px;
-    margin: 20px;
+    margin: 40px;
     padding: 40px 15px;
     display: -ms-grid;
     display: grid;
@@ -297,6 +298,8 @@ body {
 .events__card__content h1 {
     color: white;
     font-size: 3.5rem;
+    letter-spacing: 0.5px;
+    /* font-family: "Nunito Sans", sans-serif; */
 }
 
 .active {

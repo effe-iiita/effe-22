@@ -158,7 +158,7 @@ for (const event of events) {
         <div class="events__card" data-society = ${event.society}>
         <img src="${event.link}"style="height:max-content" alt="Effervescence effe"  />
         <div class="events__card__content">
-        <h1 >${event.name}</h1>
+        <h1>${event.name}</h1>
         <p style="margin:0;font-size:16px">Date: ${event.date}</p>
       </div>
     </div>
