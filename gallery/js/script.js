@@ -75,8 +75,9 @@ const photo = new Photostack(document.getElementById("photostack-3"), {
     callback: function (item) {},
 });
 let idx = 0;
-setInterval(function () {
+let fun = () => {
     photo.showPhoto(idx);
     idx++;
     if (idx === data.length) idx = 0;
-}, 2500);
+};
+let interval = setInterval(fun, 2000);

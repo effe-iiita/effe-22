@@ -39,10 +39,10 @@
     position: relative;
     display: inline-block;
     background: #fff;
-    padding: 40px;
+    padding: 16px;
     text-align: center;
     margin: 5px;
-    background: #ff4654;
+    background: #c9c4c4;
 }
 
 .js .photostack figure {
@@ -53,15 +53,15 @@
 
 .photostack figcaption h2 {
     margin: 20px 0 0 0;
-    color: #a7a0a2;
-    font-size: 16px;
+    color: #ff4654;
+    font-size: 24px;
+    letter-spacing: 2px;
 }
 
 .photostack-img {
     outline: none;
     display: block;
-    width: 240px;
-    height: 240px;
+
     background: #f9f9f9;
 }
 

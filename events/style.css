@@ -1,18 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&family=Nunito:wght@300;400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
 * {
     margin: 0;
     padding: 0;
-    /* -webkit-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: "Nunito Sans", sans-serif; */
-}
-h1 {
-    /* font-family: "Nunito Sans", sans-serif; */
-    font-size: 4rem;
-    color: white;
-    margin-bottom: 1rem;
-    font-family: "Creepster", cursive;
+    font-family: "Nunito Sans", sans-serif;
 }
 body {
     width: 100vw;
@@ -98,24 +90,24 @@ body {
 }
 
 .events__hero__detail__heading {
+    font-size: 3rem;
     margin-bottom: 2rem;
     position: relative;
-    font-family: "Creepster", cursive;
     color: white;
 }
-.events__hero__detail__heading h1 {
-    font-size: 8rem;
-}
 .events__hero__detail__heading span {
-    font-size: 4rem;
+    font-size: 1.5rem;
+    position: absolute;
+    top: -10px;
+    left: 3px;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: white;
 }
 
 .events__hero__detail__body {
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
     letter-spacing: 1px;
     color: white;
 }
@@ -177,9 +169,7 @@ body {
         width: 95%;
         height: 120px;
     }
-    .events__hero {
-        margin-top: 4rem;
-    }
+
     .logo {
         width: 10vw;
     }
@@ -207,7 +197,6 @@ body {
     -ms-flex-align: center;
     align-items: center;
     list-style: none;
-
     cursor: pointer;
     font-size: 2.5rem;
     -ms-flex-wrap: wrap;
@@ -215,9 +204,8 @@ body {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    font-family: "Creepster", cursive;
     color: white;
-    letter-spacing: 2px;
+    font-weight: 700;
 }
 
 @media screen and (max-width: 900px) {
@@ -307,15 +295,10 @@ body {
     align-items: center;
 }
 .events__card__content h1 {
-    font-family: "Creepster", cursive;
     color: white;
     font-size: 3.5rem;
 }
-.events__card__content p {
-    font-family: "Creepster", cursive;
-    color: white;
-    font-size: 2rem;
-}
+
 .active {
     background-color: #fed792;
     color: #5a1300;
