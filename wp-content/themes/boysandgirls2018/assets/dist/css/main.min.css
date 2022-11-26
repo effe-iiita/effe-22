@@ -6534,7 +6534,7 @@ html.fp-enabled {
         justify-content: center;
         align-items: center;
         background: linear-gradient(rgba(10, 10, 10, .6), rgba(0, 0, 0, 0.7)), repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px),
-            url(/back-image.png);
+            url(https://github.com/effe-iiita/effe-22/blob/master/back-image.png?raw=true);
         background-size: cover;
         background-position: center;
         z-index: 1;
