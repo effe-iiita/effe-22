@@ -4,56 +4,68 @@ const data = [
         title: "Neeti Mohan",
     },
     {
+        src: "image/paw_patrol_music_maker.jpg",
+        title: "Vishal Mishra",
+    },
+    {
         src: "image/favourite_movie_revealed.jpg",
-        title: "BANDS",
+        title: "WHEN CHAI MET TOAST",
     },
     {
         src: "image/dreamy2.jpg",
-        title: "dancing",
+        title: "Footloose",
     },
     {
         src: "image/sleigher3000.jpg",
-        title: "akash gupta",
+        title: "Akash Gupta",
     },
     {
         src: "image/fighter3.jpg",
-        title: "motivation",
+        title: "Zephyrtone",
     },
     {
         src: "image/gumble.jpg",
-        title: "gumble",
+        title: "Mariana Bo",
     },
     {
         src: "image/fighter1.jpg",
-        title: "Bassi",
+        title: "Anubhav Singh Bassi",
     },
     {
         src: "image/confettis.jpg",
         title: "FACE ART",
     },
     {
+        src: "image/icon_glasses.jpg",
+        title: "Virtuosi",
+    },
+    {
         src: "image/dangermouse.jpg",
-        title: "dangermouse",
+        title: "Battle of Bands",
+    },
+    {
+        src: "image/icon_mom.jpg",
+        title: "MY FAVOURITE MUM",
     },
     {
         src: "image/cooking.jpg",
-        title: "cooking",
+        title: "guitar skills",
     },
     {
         src: "image/dreamy1.jpg",
-        title: "dreamy",
+        title: "The local train",
     },
     {
         src: "image/spotbots_switched_on.jpg",
-        title: "spotbots",
+        title: "Ritviz",
     },
     {
         src: "image/plane_to_sphere.jpg",
-        title: "singing",
+        title: "plane to sphere",
     },
     {
         src: "image/sherrifcali.jpg",
-        title: "sherrifcali",
+        title: "Genetix Crew",
     },
     {
         src: "image/giugiu.jpg",
@@ -61,35 +73,31 @@ const data = [
     },
     {
         src: "image/handsup_001.jpg",
-        title: "handsup",
+        title: "Neeti Mohan",
     },
     {
         src: "image/icon_rugby.jpg",
-        title: "freshee",
+        title: "BOSS 2",
     },
     {
         src: "image/icon_saxo.jpg",
-        title: "Bike skill",
+        title: "KTM Stunt-show",
     },
     {
         src: "image/address_revealed.jpg",
-        title: "DJ",
+        title: "Zephyrtone",
     },
     {
         src: "image/blob_001.jpg",
-        title: "dramming",
+        title: "ICOSPHERE",
     },
     {
         src: "image/icon_tinder.jpg",
-        title: "speech",
+        title: "MOTIVATION",
     },
     {
         src: "image/icon_twitter.jpg",
         title: "Art",
-    },
-    {
-        src: "image/IMG_7092.jpg",
-        title: "dramming",
     },
 ];
 const container = document.querySelector(".img-container");
