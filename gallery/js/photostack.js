@@ -8,6 +8,7 @@
  * Copyright 2014, Codrops
  * http://www.codrops.com
  */
+let stop = false;
 (function (window) {
     "use strict";
 
@@ -174,7 +175,7 @@
             setTransition();
         } else {
             self.openDefault = true;
-            setTimeout(setTransition, 25);
+            setTimeout(setTransition, 1000);
         }
         self.started = true;
         self._showPhoto(self.current);
@@ -183,15 +184,28 @@
     Photostack.prototype._initEvents = function () {
         if (this.options.clickToFlip == "true") {
             this.items.forEach(function (img, idx) {
-                img.addEventListener("click", function (event) {
+                img.addEventListener("mouseover", function (event) {
                     event.preventDefault();
                     if (idx === self.current) {
-                        self._rotateItem();
+                        self._zoomItem();
                     }
                 });
             });
         }
-
+        this.items.forEach(function (img, idx) {
+            img.addEventListener("mouseenter", function (event) {
+                event.preventDefault();
+                if (idx === self.current) {
+                    self._zoomItem();
+                }
+            });
+            img.addEventListener("mouseleave", function (event) {
+                event.preventDefault();
+                if (idx === self.current) {
+                    self._zoomItem2();
+                }
+            });
+        });
         var self = this,
             beforeStep = classie.hasClass(this.el, "photostack-start");
 
@@ -681,7 +695,22 @@
             }
         }
     };
+    Photostack.prototype._zoomItem = function (callback) {
+        clearInterval(interval);
+        this.currentItem.style.width = "380px";
+        this.currentItem.style.height = "420px";
+        this.currentItem.style.transition = "all 1s";
+        this.currentItem.style.background = "#b2adad";
+        console.log(this);
+    };
+    Photostack.prototype._zoomItem2 = function (callback) {
+        interval = setInterval(fun, 2000);
+        this.currentItem.style.width = "320px";
+        this.currentItem.style.height = "360px";
+        this.currentItem.style.background = "#c9c4c4";
 
+        console.log(this);
+    };
     // add to global namespace
     window.Photostack = Photostack;
 })(window);

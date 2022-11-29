@@ -135,7 +135,7 @@ html {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #000000;
+    background-color: #0d0606;
     z-index: 12;
     text-transform: uppercase;
     color: #fff;
@@ -188,7 +188,7 @@ canvas {
     /* position: fixed;
   top: 0px;
   left: 0px; */
-    background-color: #000000;
+    background-color: #0d0606;
     height: 60px;
     z-index: 10;
     font-family: "din_condensed";
@@ -212,7 +212,7 @@ canvas {
     width: 100%;
     height: 200%;
     top: -100%;
-    background-color: #000000;
+    background-color: #0d0606;
 }
 #header a {
     text-decoration: none;
@@ -291,7 +291,7 @@ div#overlay #buttonProject #insideButtonProject {
     display: inline-block;
     width: 90px;
     height: 90px;
-    /* background-color: #000000; */
+    /* background-color: #0d0606; */
     transition: all 0.2s ease;
     cursor: pointer;
     position: relative;
@@ -593,7 +593,7 @@ div#overlay {
     z-index: 1000;
     top: 80px;
     left: 20px;
-    background: black;
+    background: #0d0606;
     border-radius: 5px;
     color: white;
     padding: 20px;

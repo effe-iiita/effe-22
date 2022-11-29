@@ -1,24 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&family=Nunito:wght@300;400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
 * {
     margin: 0;
     padding: 0;
-    /* -webkit-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: "Nunito Sans", sans-serif; */
-}
-h1 {
     /* font-family: "Nunito Sans", sans-serif; */
-    font-size: 4rem;
-    color: white;
-    margin-bottom: 1rem;
-    font-family: "Creepster", cursive;
 }
 body {
     width: 100vw;
     height: auto;
     overflow-x: hidden;
-    background-color: black;
+    background-color: #0d0606;
 }
 .logo {
     z-index: 100;
@@ -53,8 +45,6 @@ body {
     -ms-flex-align: center;
     align-items: center;
     flex-wrap: wrap;
-}
-.events__hero__detail__heading {
 }
 @media screen and (max-width: 650px) {
     .events__hero {
@@ -102,18 +92,13 @@ body {
 .events__hero__detail__heading {
     font-size: 3rem;
     margin-bottom: 2rem;
-
     position: relative;
-    font-family: "Creepster", cursive;
     color: white;
 }
-.events__hero__detail__heading h1 {
-    font-size: 5rem;
-}
 .events__hero__detail__heading span {
-    font-size: 2rem;
+    font-size: 1.5rem;
     position: absolute;
-    top: -25px;
+    top: -20px;
     left: 3px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -129,6 +114,9 @@ body {
 
 .events__hero__detail__body p {
     margin: 10px 0;
+    line-height: 2.5rem;
+    letter-spacing: 1px;
+    font-size: 2rem;
 }
 
 .events__hero__image {
@@ -176,7 +164,7 @@ body {
     margin: 0 auto 20px auto;
     font-size: 1.6rem;
     background-color: #ff4654;
-    border-radius: 4rem;
+    border-radius: 4px;
 }
 
 @media screen and (max-width: 900px) {
@@ -184,9 +172,7 @@ body {
         width: 95%;
         height: 120px;
     }
-    .events__hero {
-        margin-top: 4rem;
-    }
+
     .logo {
         width: 10vw;
     }
@@ -214,17 +200,16 @@ body {
     -ms-flex-align: center;
     align-items: center;
     list-style: none;
-
     cursor: pointer;
-    font-size: 2.5rem;
+    font-size: 2rem;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    font-family: "Creepster", cursive;
     color: white;
-    letter-spacing: 2px;
+    font-weight: 700;
+    font-family: "Nunito Sans", sans-serif;
 }
 
 @media screen and (max-width: 900px) {
@@ -266,7 +251,7 @@ body {
     background-color: #ff4654;
     min-width: 280px;
     border-radius: 20px;
-    margin: 20px;
+    margin: 40px;
     padding: 40px 15px;
     display: -ms-grid;
     display: grid;
@@ -314,15 +299,12 @@ body {
     align-items: center;
 }
 .events__card__content h1 {
-    font-family: "Creepster", cursive;
     color: white;
     font-size: 3.5rem;
+    letter-spacing: 0.5px;
+    /* font-family: "Nunito Sans", sans-serif; */
 }
-.events__card__content p {
-    font-family: "Creepster", cursive;
-    color: white;
-    font-size: 2rem;
-}
+
 .active {
     background-color: #fed792;
     color: #5a1300;
