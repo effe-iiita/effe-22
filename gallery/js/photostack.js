@@ -697,16 +697,13 @@ let stop = false;
     };
     Photostack.prototype._zoomItem = function (callback) {
         clearInterval(interval);
-        this.currentItem.style.width = "380px";
-        this.currentItem.style.height = "420px";
-        this.currentItem.style.transition = "all 1s";
+
         this.currentItem.style.background = "#b2adad";
         console.log(this);
     };
     Photostack.prototype._zoomItem2 = function (callback) {
         interval = setInterval(fun, 2000);
-        this.currentItem.style.width = "320px";
-        this.currentItem.style.height = "360px";
+
         this.currentItem.style.background = "#c9c4c4";
 
         console.log(this);
