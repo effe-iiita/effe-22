@@ -73,6 +73,18 @@ const events = [
         society: "Informal",
         link: "./assets/gullycricket.jpeg",
     },
+    {
+        name: "Pani Puri Junction",
+        date: "08 Dec.",
+        society: "Informal",
+        link: "./assets/panipurijunction.jpeg",
+    },
+    {
+        name: "Momos Junction",
+        date: "08 Dec.",
+        society: "Informal",
+        link: "./assets/momosjunction.jpeg",
+    },
     // {
     //     name: "Toon-Con",
     //     date: "9-19 Dec.",
