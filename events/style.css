@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&family=Nunito:wght@300;400;700&display=swap");
+
 * {
     margin: 0;
     padding: 0;
@@ -6,12 +7,14 @@
     box-sizing: border-box;
     /* font-family: "Nunito Sans", sans-serif; */
 }
+
 body {
     width: 100vw;
     height: auto;
     overflow-x: hidden;
     background-color: #0d0606;
 }
+
 .logo {
     z-index: 100;
     position: absolute;
@@ -20,6 +23,7 @@ body {
     width: 6vw;
     cursor: pointer;
 }
+
 .events {
     width: 100vw;
     height: auto;
@@ -46,6 +50,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
 }
+
 @media screen and (max-width: 650px) {
     .events__hero {
         -webkit-box-orient: vertical;
@@ -95,6 +100,7 @@ body {
     position: relative;
     color: white;
 }
+
 .events__hero__detail__heading span {
     font-size: 1.5rem;
     position: absolute;
@@ -116,7 +122,7 @@ body {
     margin: 10px 0;
     line-height: 2.5rem;
     letter-spacing: 1px;
-    font-size: 2rem;
+    font-size: 18px;
 }
 
 .events__hero__image {
@@ -182,9 +188,11 @@ body {
     .events__list {
         height: 180px;
     }
+
     .logo {
         display: none;
     }
+
     .events__hero {
         margin-top: 2rem;
     }
@@ -278,10 +286,12 @@ body {
         max-width: 250px;
     }
 }
+
 @media screen and (max-width: 650px) {
     .events__card img {
         max-width: 250px;
     }
+
     .events__card__content {
         flex-direction: column;
     }
@@ -298,6 +308,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
 }
+
 .events__card__content h1 {
     color: white;
     font-size: 3.5rem;
@@ -326,11 +337,13 @@ body {
         transform: scale(1);
         opacity: 1;
     }
+
     50% {
         -webkit-transform: scale(0.5);
         transform: scale(0.5);
         opacity: 0;
     }
+
     100% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -344,15 +357,18 @@ body {
         transform: scale(1);
         opacity: 1;
     }
+
     50% {
         -webkit-transform: scale(0.5);
         transform: scale(0.5);
         opacity: 0;
     }
+
     100% {
         -webkit-transform: scale(1);
         transform: scale(1);
         opacity: 1;
     }
 }
+
 /*# sourceMappingURL=style.css.map */

@@ -19,6 +19,18 @@ const events = [
         society: "Sarasva",
         link: "./assets/cognoscentia.jpg",
     },
+    {
+        name: "Instrumento",
+        date: "28 Nov-10 Dec.",
+        society: "Virtuosi",
+        link: "./assets/Instrumento.jpeg",
+    },
+    {
+        name: "Prom Night	",
+        date: "05 Dec.",
+        society: "",
+        link: "./assets/promnight.jpg",
+    },
     // {
     //     name: "Antakshari",
     //     date: "16-17 Dec.",
@@ -54,6 +66,12 @@ const events = [
         date: "25 Nov-15 Dec.",
         society: "Nirmiti ",
         link: "./assets/schizzare.jpeg",
+    },
+    {
+        name: "Gully Cricket",
+        date: "01-02 Dec.",
+        society: "",
+        link: "./assets/gullycricket.jpeg",
     },
     // {
     //     name: "Toon-Con",
