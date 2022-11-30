@@ -28,7 +28,7 @@ const events = [
     {
         name: "Prom Night	",
         date: "05 Dec.",
-        society: "",
+        society: "Informal",
         link: "./assets/promnight.jpg",
     },
     // {
@@ -70,7 +70,7 @@ const events = [
     {
         name: "Gully Cricket",
         date: "01-02 Dec.",
-        society: "",
+        society: "Informal",
         link: "./assets/gullycricket.jpeg",
     },
     // {
