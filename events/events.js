@@ -26,6 +26,12 @@ const events = [
         link: "./assets/Instrumento.jpeg",
     },
     {
+        name: "Treasure Hunt",
+        date: "07 Dec.",
+        society: "Informal",
+        link: "./assets/treasurehunt.jpg",
+    },
+    {
         name: "Prom Night	",
         date: "05 Dec.",
         society: "Informal",
