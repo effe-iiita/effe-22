@@ -98,10 +98,16 @@ const events = [
         link: "./assets/Graffiti.jpg",
     },
     {
-        name: "Intoverse",
+        name: "Introverse",
         date: "08 Dec.",
         society: "Rangtarangini",
         link: "./assets/Introverse.jpg",
+    },
+    {
+        name: "Toon Con",
+        date: "09 Dec.",
+        society: "Nirmiti",
+        link: "./assets/ToonCon.jpg",
     },
     // {
     //     name: "Toon-Con",
