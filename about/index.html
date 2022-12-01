@@ -72,6 +72,7 @@
         href="../wp-json/oembed/1.0/embed2bff.json?url=https%3A%2F%2Fboysandgirls.ie%2Fabout%2F" />
     <link rel="alternate" type="text/xml+oembed"
         href="../wp-json/oembed/1.0/embed12f5?url=https%3A%2F%2Fboysandgirls.ie%2Fabout%2F&amp;format=xml" />
+        <link rel="stylesheet" href="../loader.css">
     <style type="text/css" id="wp-custom-css">
         .cn-button.bootstrap {
             background-color: #0d0606;
@@ -95,16 +96,29 @@
 </head>
 
 <body class="page-template page-template-template-about page-template-template-about-php page page-id-12">
-
-    <div class="loader">
+<div class="loader2">
+      <div class="loader__container">
+        <div class="loader-content">
+          <div class="loader-logo fadeIn">
+            <!-- Your Logo Here -->
+            <img
+              src="../wp-content/uploads/gallery/Effe_logo.svg"
+              alt="Effervescence'21 - The Cultural Fest of IIIT Allahabad"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="loader__darkscreen"></div>
+    </div>
+    <!--div class="loader">
         <div class="loader__base"></div>
         <div class="loader__top"></div>
         <div class="loader__right"></div>
         <div class="loader__btm"></div>
         <div class="loader__left"></div>
+<
 
-
-        <!-- new loader -->
+        
         <div class="loader__box-wrap">
             <div class="loader__box">
                 <svg id="loader__animation" image-rendering="auto" baseProfile="basic" version="1.1" x="0px" y="0px"
@@ -128,9 +142,9 @@
                                 values="none;inline;inline" />
                         </g>
                         <g id="Layer1_0_FILL">
-                            <!-- <path fill="#3c2117" stroke="none" d="M54.1 29.45L45.9 29.45 45.9 45.9 29.45 45.9 29.45 54.1 45.9 54.1 45.9 70.55 54.1 70.55 54.1 54.1 70.55 54.1 70.55 45.9 54.1 45.9 54.1 29.45Z"/>
+                            <path fill="#3c2117" stroke="none" d="M54.1 29.45L45.9 29.45 45.9 45.9 29.45 45.9 29.45 54.1 45.9 54.1 45.9 70.55 54.1 70.55 54.1 54.1 70.55 54.1 70.55 45.9 54.1 45.9 54.1 29.45Z"/>
 										<g id="plusd171" transform="translate(50 50)">
-										<path id="Layer4_0_1_STROKES" stroke="#5A6978" stroke-width="8" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" fill="none" d="M32.9 32.9L-32.9 32.9 -32.9 -32.9 32.9 -32.9 32.9 32.9Z"/> -->
+										<path id="Layer4_0_1_STROKES" stroke="#5A6978" stroke-width="8" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" fill="none" d="M32.9 32.9L-32.9 32.9 -32.9 -32.9 32.9 -32.9 32.9 32.9Z"/> 
                             <svg width="40" height="40" x="30" y="30px" viewBox="0 0 419 501" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -285,7 +299,7 @@
 
 
 
-    </div>
+    </div-->
 
 
     <header class="nav__outer headroom">
@@ -1582,6 +1596,12 @@
     <script type='text/javascript' src='../wp-content/themes/boysandgirls2018/assets/dist/js/main.min.js'
         id='main.min.js-js'></script>
     <script type='text/javascript' src='../wp-includes/js/wp-embed.min.js' id='wp-embed-js'></script>
+    <script>
+		let loader2=document.querySelector(".loader2");
+		setTimeout(()=>{
+			loader2.classList.add("loaded")
+		},3000)
+	</script>
 
 </body>
 
