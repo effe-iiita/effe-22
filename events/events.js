@@ -37,6 +37,24 @@ const events = [
         society: "Informal",
         link: "./assets/promnight.jpg",
     },
+    {
+        name: "Laser Tag",
+        date: "08 Dec.",
+        society: "Informal",
+        link: "./assets/Lasertag.jpg",
+    },
+    {
+        name: "Roadies",
+        date: "09 Dec.",
+        society: "Informal",
+        link: "./assets/Roadies.jpg",
+    },
+    {
+        name: "Futsal",
+        date: "03 Dec.",
+        society: "Informal",
+        link: "./assets/Futsal.jpg",
+    },
     // {
     //     name: "Antakshari",
     //     date: "16-17 Dec.",
