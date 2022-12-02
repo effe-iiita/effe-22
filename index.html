@@ -737,6 +737,7 @@
 	<script type='text/javascript' src='wp-content/themes/boysandgirls2018/assets/dist/js/main.min.js'
 		id='main.min.js-js'></script>
 	<script type='text/javascript' src='wp-includes/js/wp-embed.min.js' id='wp-embed-js'></script>
+	<!-- <script src="https://unpkg.com/fullpage.js/dist/fullpage.extensions.min.js"></script> -->
 	<!-- remove the anchor tag with "Unlicensed fullPage.js Extension" text in it -->
 	<script>
 		jQuery(document).ready(function ($) {
@@ -748,7 +749,7 @@
 						let parent = anchor[0].parentElement;
 						console.log(parent);
 						parent.remove();
-					}, i * 1000);
+					}, i * 100000);
 			}
 		});
 	</script>
