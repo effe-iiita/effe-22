@@ -55,6 +55,18 @@ const events = [
         society: "Informal",
         link: "./assets/Futsal.jpg",
     },
+    {
+        name: "Antakshari",
+        date: "06 Dec.",
+        society: "Virtuosi",
+        link: "./assets/Antakshari.jpeg",
+    },
+    {
+        name: "Carpe Diem",
+        date: "10 Dec.",
+        society: "Informal",
+        link: "./assets/CarpDiem.jpeg",
+    },
     // {
     //     name: "Antakshari",
     //     date: "16-17 Dec.",
