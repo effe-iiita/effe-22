@@ -64,7 +64,7 @@ const events = [
     {
         name: "Carpe Diem",
         date: "10 Dec.",
-        society: "Informal",
+        society: "GeneticXCrew",
         link: "./assets/CarpDiem.jpeg",
     },
     // {
