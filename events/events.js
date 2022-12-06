@@ -67,6 +67,12 @@ const events = [
         society: "GeneticXCrew",
         link: "./assets/CarpDiem.jpeg",
     },
+    {
+        name: "Cross Roads",
+        date: "08 Dec.",
+        society: "Sarasva",
+        link: "./assets/CrossRoads.jpg",
+    },
     // {
     //     name: "Antakshari",
     //     date: "16-17 Dec.",
